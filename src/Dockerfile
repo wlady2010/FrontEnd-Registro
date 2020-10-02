@@ -1,10 +1,11 @@
-FROM node:10-slim as fron-end
-RUN mkdir -p /app
+FROM node:10-slim
 WORKDIR /app
+ENV PATH /app/node_modules/.bin:$PATH
 # install and app dependencies
-COPY package.json* /app
+COPY package.json /app/package.json
 RUN npm install
+RUN npm install -g @angular/cli
 # add app
 COPY . /app
 # start app
-RUN npm run build --prod
+CMD npm run build --prod
