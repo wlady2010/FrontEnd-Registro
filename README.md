@@ -1,3 +1,26 @@
+# EXPLICACION QUE TIENE EL SISTEMA
+
+El sistema esta echo con Angular 10 y el framework primeng
+consume los servicios del backend-registro del cual es un CRUD
+Esta dokerizado
+publicada en Heroku https://frontend-registro.herokuapp.com/
+
+# Para correr localmente
+
+clone el repositorio https://github.com/wlady2010/FrontEnd-Registro.git
+
+abri en terminal
+
+ubicaser en la carpeta FrontEnd-Registro
+
+escribir en la teminal npm install
+
+una vez que se  instalara todas las dependencias de mi proyecto
+
+ng start
+
+para que suba nuestro proyecto al http://localhost:4200/
+
 # FronendServices
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.2.
