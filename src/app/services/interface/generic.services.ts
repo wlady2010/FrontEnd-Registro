@@ -10,7 +10,7 @@ export class GenericService {
 // tslint:disable-next-line:variable-name
 constructor(public router: Router, public _http: HttpClient) { }
 
-url = 'http://localhost:3000/';
+url = 'http://backend-registro.herokuapp.com/';
 
 public genericCallServices(methodoHttpType, url: string, body: any, additionalParameters: any): Observable<any> {
   let result;
