@@ -2,8 +2,6 @@
 
 El sistema esta echo con Angular 10 y el framework primeng
 consume los servicios del backend-registro del cual es un CRUD
-Esta dokerizado
-publicada en Heroku https://frontend-registro.herokuapp.com/
 
 # Para correr localmente
 
