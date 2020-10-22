@@ -3,8 +3,9 @@
         "target":"https://backend-registro.herokuapp.com/",
         "securre": false,
         "logLevel": "debug",
+        "changeOrigin" : true ,
         "pathRewrite": {
-            "^/api": ""
+            "^/api": "" 
         }
     }
 }
